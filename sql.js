@@ -13,6 +13,7 @@ app.get("search", function handler(req, res) {
   });
 
   // GOOD: use parameters
+  
   /*
   var query2 =
     "SELECT ITEM,PRICE FROM PRODUCT WHERE ITEM_CATEGORY=$1" + " ORDER BY PRICE";
